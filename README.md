@@ -116,10 +116,3 @@ python -m benchmarks.final_ablation
 | `GET` | `/memory-audit` | Inspect active and superseded FAISS Long-Term Memory records |
 | `GET` | `/usage-summary` | Retrieve aggregated SQLite token and latency telemetry per provider/model |
 | `GET` | `/fipa-log/{run_id}` | Fetch the persisted SQLite FIPA-ACL message trace for a mission run |
-
-## Authors & Academic Context
-
-Developed as a Final-Year Capstone Project for **23CSE4018 – Agentic AI** at **MIT ADT University, MIT School of Computing, Pune** (Department of Computer Science and Engineering).
-
-* **Team:** `[Group No. / Member Names / Enrollment Numbers]`
-* **Faculty Guide:** `[Faculty Name]`
