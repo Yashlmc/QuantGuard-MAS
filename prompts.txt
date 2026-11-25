@@ -1,0 +1,138 @@
+Device name	Yash
+Processor	Intel(R) Core(TM) Ultra 9 275HX (2.70 GHz)
+Installed RAM	32.0 GB (31.4 GB usable)
+Graphics card	NVIDIA GeForce RTX 5080 Laptop GPU (16 GB)
+Intel(R) Graphics (128 MB)
+Storage	567 GB of 954 GB used
+Device ID	1CDEB29D-691E-4707-8E4D-D3AD998362BD
+Product ID	00342-21448-88754-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
+Edition	Windows 11 Home
+Version	26H2
+Installed on	‎11-‎08-‎2025
+OS build	26300.9974
+Serial number	PF5QBW2K
+Experience	Windows Feature Experience Pack 1000.26100.385.0
+working on - VSCode, gemini api, groq api
+
+
+current project progress:
+(dl) PS C:\Users\pande\Downloads\QuantGuard-MAS> tree /F /A
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 28F1-2863
+C:.
+|   .env
+|   .gitignore
+|   guardrails.py
+|   list_gemini_models.py
+|   prompts.txt
+|   test_gemini.py
+|   test_key_selection.py
+|   test_peas_history.py
+|   
++---app
+|       __init__.py
+|       
++---benchmarks
+|       __init__.py
+|       
++---charts
+|       __init__.py
+|       
++---core
+|   |   config.py
+|   |   key_manager.py
+|   |   llm_router.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           config.cpython-311.pyc
+|           config.cpython-314.pyc
+|           key_manager.cpython-311.pyc
+|           key_manager.cpython-314.pyc
+|           llm_router.cpython-311.pyc
+|           llm_router.cpython-314.pyc
+|           test_gemini.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---data
+|       quantguard.db
+|       
++---environment
+|   |   market_simulator.py
+|   |   peas.py
+|   |   portfolio.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           market_simulator.cpython-311.pyc
+|           peas.cpython-311.pyc
+|           portfolio.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---evaluation
+|   |   usage_tracker.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           usage_tracker.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---logs
+\---schemas
+    |   llm_response.py
+    |   __init__.py
+    |   
+    \---__pycache__
+            llm_response.cpython-311.pyc
+            __init__.cpython-311.pyc
+            
+(dl) PS C:\Users\pande\Downloads\QuantGuard-MAS> 
+
+(dl) PS C:\Users\pande\Downloads\QuantGuard-MAS> Get-Content (Get-PSReadLineOption).HistorySavePath
+conda activate base
+conda activate dl
+pip install groq
+conda activate base
+conda activate dl
+pip install google-genai
+mkdir app`
+mkdir core`
+mkdir benchmarks`
+mkdir data`
+mkdir logs`
+mkdir charts
+conda activate dl
+pip install groq python-dotenv pandas numpy yfinance matplotlib seaborn plotly scipy pydantic requests streamlit
+python -m pip install python-dotenv groq`
+
+conda activate base
+python -m core.config
+python -m core.llm_router
+conda activate dl
+python -m core.llm_router
+conda activate dl
+python -c "import sys; print(sys.executable)"
+python -m core.llm_router
+python test_gemini.py
+python -m core.test_gemini
+python test_gemini.py
+python -m core.llm_router
+python test_gemini.py
+conda activate dl
+python test_gemini.py
+python -m evaluation.usage_tracker
+python -m environment.market_simulator
+python -m environment.portfolio
+python -m environment.peas
+python test_peas_history.py
+conda activate dl
+tree -a
+conda activate dl
+tree -a
+conda activate dl
+tree /F /A
+Get-History -Count 50
+Get-History
+Get-Content (Get-PSReadLineOption).HistorySavePath

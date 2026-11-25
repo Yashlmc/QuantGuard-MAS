@@ -1,0 +1,16 @@
+groq
+google-genai
+python-dotenv
+pandas
+numpy
+scipy
+matplotlib
+pydantic>=2.7
+fastapi
+uvicorn
+streamlit
+yfinance
+faiss-cpu
+sentence-transformers
+transformers
+torch
